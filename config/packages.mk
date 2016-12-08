@@ -9,8 +9,7 @@ PRODUCT_PACKAGES += \
     Basic \
     CalendarWidget \
     Chromium \
-    LatinIME \
-    OmniSwitch
+    LatinIME
 
 # Extra tools
 PRODUCT_PACKAGES += \
@@ -21,7 +20,3 @@ PRODUCT_PACKAGES += \
     mount.exfat \
     fsck.exfat \
     mkfs.exfat
-
-# DU Utils Library
-PRODUCT_PACKAGES += \
-    org.dirtyunicorns.utils
