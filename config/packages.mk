@@ -1,15 +1,15 @@
 # Required packages
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
-    Development \
-    SpareParts
+    Development
 
 # Optional packages
 PRODUCT_PACKAGES += \
     Basic \
     Browser \
     CalendarWidget \
-    LatinIME
+    LatinIME \
+    masquerade
 
 # Extra tools
 PRODUCT_PACKAGES += \
