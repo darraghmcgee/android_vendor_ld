@@ -1,9 +1,10 @@
-add_lunch_combo ld_klimtwifi-userdebug
-add_lunch_combo ld_klimtlte-userdebug
-add_lunch_combo ld_klimttd-userdebug
-add_lunch_combo ld_chagallwifi-userdebug
 add_lunch_combo ld_chagalllte-userdebug
 add_lunch_combo ld_chagallltetmo-userdebug
+add_lunch_combo ld_chagallwifi-userdebug
+add_lunch_combo ld_ha3g-userdebug
+add_lunch_combo ld_klimtlte-userdebug
+add_lunch_combo ld_klimttd-userdebug
+add_lunch_combo ld_klimtwifi-userdebug
 add_lunch_combo ld_n1a3g-userdebug
 add_lunch_combo ld_n1awifi-userdebug
 add_lunch_combo ld_n2a3g-userdebug
@@ -11,4 +12,3 @@ add_lunch_combo ld_n2awifi-userdebug
 add_lunch_combo ld_v1a3g-userdebug
 add_lunch_combo ld_v1awifi-userdebug
 add_lunch_combo ld_v2awifi-userdebug
-add_lunch_combo ld_ha3g-userdebug
