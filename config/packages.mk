@@ -7,8 +7,8 @@ PRODUCT_PACKAGES += \
 # Optional packages
 PRODUCT_PACKAGES += \
     Basic \
+    Browser \
     CalendarWidget \
-    Chromium \
     LatinIME
 
 # Extra tools

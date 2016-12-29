@@ -78,8 +78,8 @@ include vendor/ld/config/packages.mk
 PRODUCT_PACKAGE_OVERLAYS += vendor/ld/overlay/common
 
 # Boot Animation
-PRODUCT_COPY_FILES += \
-    vendor/ld/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+#PRODUCT_COPY_FILES += \
+#    vendor/ld/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
 # SuperSU
 PRODUCT_COPY_FILES += \
