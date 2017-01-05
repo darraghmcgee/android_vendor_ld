@@ -81,11 +81,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/ld/overlay/common
 #PRODUCT_COPY_FILES += \
 #    vendor/ld/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
-# SuperSU
-PRODUCT_COPY_FILES += \
-    vendor/ld/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-    vendor/ld/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
-
 # Versioning System
 ANDROID_VERSION = 7.1.1
 LD_VERSION = v1.0
