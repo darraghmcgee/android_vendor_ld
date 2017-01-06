@@ -6,7 +6,7 @@ PRODUCT_PACKAGES += \
 # Optional packages
 PRODUCT_PACKAGES += \
     Basic \
-    Browser \
+    Browser2 \
     CalendarWidget \
     LatinIME \
     masquerade
