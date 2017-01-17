@@ -100,6 +100,32 @@ endif
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
+# Extra tools in LD
+PRODUCT_PACKAGES += \
+    libsepol \
+    openvpn \
+    e2fsck \
+    mke2fs \
+    tune2fs \
+    bash \
+    nano \
+    htop \
+    powertop \
+    lsof \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs \
+    ntfsfix \
+    ntfs-3g \
+    gdbserver \
+    micro_bench \
+    oprofiled \
+    sqlite3 \
+    strace
+
 # Set all versions
 LD_VERSION := LD_$(LD_BUILD)_$(ANDROID_VERSION)_$(shell date -u +%Y%m%d-%H%M).$(LD_VERSION)-$(LD_BUILD_TYPE)
 LD_MOD_VERSION := LD_$(LD_BUILD)_$(ANDROID_VERSION)_$(shell date -u +%Y%m%d-%H%M).$(LD_VERSION)-$(LD_BUILD_TYPE)
