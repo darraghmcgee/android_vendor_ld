@@ -9,7 +9,7 @@ PRODUCT_PACKAGES += \
     Browser2 \
     CalendarWidget \
     LatinIME \
-    masquerade
+    ThemeInterfacer
 
 # Extra tools
 PRODUCT_PACKAGES += \
